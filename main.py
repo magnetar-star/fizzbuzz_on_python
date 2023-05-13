@@ -16,4 +16,4 @@ def fizzbuzz(max_num: int):
 if __name__ == '__main__':
     print('Enter number you want for fizz-buzz: ')
     number = input()
-    fizzbuzz(number)
+    fizzbuzz(int(number))
